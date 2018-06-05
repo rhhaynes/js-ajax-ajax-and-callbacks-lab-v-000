@@ -4,6 +4,9 @@
     <title>Ajax Lab</title>
 
     <style>
+      .form-container {
+        padding: 10px;
+      }
       .flexbox-container {
         display: -ms-flex;
         display: -webkit-flex;
@@ -20,7 +23,16 @@
   </head>
   <body>
     <main id="main">
-      <div id="errors"></div>
+      <div class="form-container">
+        <form>
+          <input id="searchTerms" name="searchTerms" type="text">
+          <a href="#" onclick="searchRepositories()">
+            Search Repositories
+          </a>
+        </form>
+      </div>
+      <div id="errors">
+      </div>
     </main>
     <div class="flexbox-container">
       <div>

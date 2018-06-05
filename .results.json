@@ -1,0 +1,28 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2018-06-05T00:38:08.819Z",
+    "end": "2018-06-05T00:38:08.827Z",
+    "duration": 8
+  },
+  "tests": [],
+  "pending": [],
+  "failures": [
+    {
+      "title": "\"before all\" hook",
+      "fullTitle": "index.js \"before all\" hook",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Cannot find module 'jsdom/lib/old-api'\n    at require (internal/module.js:11:18)\n    at Context.<anonymous> (node_modules/mocha-jsdom/index.js:53:5)",
+        "message": "Cannot find module 'jsdom/lib/old-api'",
+        "code": "MODULE_NOT_FOUND"
+      }
+    }
+  ],
+  "passes": []
+}
